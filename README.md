@@ -1,18 +1,25 @@
-## Getting Started
+# KeyWordFinder 1.0 SLO
 
-Welcome to the VS Code Java world. Here is a guideline to help you get started to write Java code in Visual Studio Code.
+KeyWordFinder je aplikacija, ki uporabniku na podlagi zeljene kljucne besede ali besed najde vse PDF datoteke v direktoriju, ki ga je izbral.
 
-## Folder Structure
+## Funckije & Uporaba
 
-The workspace contains two folders by default, where:
+Program ima samo eno funkcijo in sicer **najti dokumente z zeljenimi kljucnimi besedami+**.
 
-- `src`: the folder to maintain sources
-- `lib`: the folder to maintain dependencies
+Uporaba je preprosta:
 
-Meanwhile, the compiled output files will be generated in the `bin` folder by default.
+- Uporabnik izbere tip datotek, ki jih zeli najti (zaenkrat samo PDF)
+![TIP DATOTEKE](type.png)
+- Uporabnik vnese kljucno besedo/besede
+![KLJUCNA BESEDA](kw.png)
+- Uporabnik izbere direktorij, kjer zeli iskati datoteke (program bo pregledal tudi sub-direktorije)
 
-> If you want to customize the folder structure, open `.vscode/settings.json` and update the related settings there.
+Nato bo program zacel iskanje in zraven prikazoval napredek.
+Ob koncani poizvedbi se bodo izpisali rezultati.
 
-## Dependency Management
+_Dodatna možnost je tudi nacin izpisa rezultatov. Lahko se pokaze cela pot do datoteke ali pa samo delcek. To uporabnik doloca z uporabo CheckBox-a_
+![CHECKBOX](checkBox.png)
 
-The `JAVA PROJECTS` view allows you to manage your dependencies. More details can be found [here](https://github.com/microsoft/vscode-java-dependency#manage-dependencies).
+
+## Avtor
+Andraž Ješe, Julij 2023
