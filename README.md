@@ -4,7 +4,7 @@ KeyWordFinder je aplikacija, ki uporabniku na podlagi zeljene kljucne besede ali
 
 ## Funckije & Uporaba
 
-Program ima samo eno funkcijo in sicer **najti dokumente z zeljenimi kljucnimi besedami+**.
+Program ima samo eno funkcijo in sicer **najti dokumente z zeljenimi kljucnimi besedami**.
 
 Uporaba je preprosta:
 
