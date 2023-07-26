@@ -43,7 +43,7 @@ public class Frame {
 
         BufferedImage icon;
         try {
-            icon = ImageIO.read(new File("KeyWord.png"));   //icon of the app
+            icon = ImageIO.read(Frame.class.getResource("/KeyWord.png"));   //icon of the app
             jf.setIconImage(icon);
 
         } catch (IOException e1) {
